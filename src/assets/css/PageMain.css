@@ -1,0 +1,32 @@
+.div_main_form {
+    width: 65%;
+}
+
+    @media (max-width: 700px) {
+        .div_main_form {
+            width: 100%;
+        }
+    }
+
+.div_main_order {
+    width: 25%;
+    background-color: #EDE9EA;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+    @media (max-width: 700px) {
+        .div_main_order {
+            width: 100%;
+            background-color: #EDE9EA;
+            margin-top: 5rem;
+            margin-right: 0rem;
+        }
+    }
+
+    @media (max-width: 700px) {
+        .div_main {
+            display: flex;
+            flex-direction: column;
+        }
+    }

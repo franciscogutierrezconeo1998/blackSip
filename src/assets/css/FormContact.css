@@ -1,0 +1,89 @@
+.input_text {
+    height: 30px;
+    width: 200px;
+    margin-right: 0.3rem;
+}
+
+.div_row {
+    display: flex;
+    margin-top: 7rem;
+    justify-content: center;
+}
+
+    @media (max-width: 700px) {
+        .div_row {
+            margin-top: 1rem;
+        }
+    }
+
+.div_row_tow {
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+
+    @media (max-width: 700px) {
+        .div_row_tow {
+            margin-top: 0.5rem;
+        }
+    }
+
+.div_row_buttons {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 23.2rem;
+}
+
+    @media (max-width: 700px) {
+        .div_row_buttons {
+            display: flex;
+            margin-top: 0.5rem;
+            margin-left: 3rem;
+        }
+    }
+
+.div_icons {
+    background-color: black;
+    color: #fff;
+    height: 36px;
+    width: 40px;
+}
+
+.div_row_check {
+    display: flex;
+    justify-content: center;
+    margin-right: 13rem;
+    margin-top: 1rem;
+}
+
+    @media (max-width: 700px) {
+        .div_row_check {
+            display: flex;
+            justify-content: center;
+            margin-top: 0.5rem;
+            margin-right: 0rem;
+        }
+    }
+
+.icon_form {
+    padding: 12px;
+}
+
+.button_libreta {
+    color: #fff;
+    background-color: black;
+    border: none;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    margin-right: 0.3rem;
+}
+
+.button_submit {
+    color: #fff;
+    background-color: black;
+    border: none;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+}

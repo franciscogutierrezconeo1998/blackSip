@@ -1,0 +1,35 @@
+.div_main {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin-top: 0.3rem;
+    align-items: flex-start;
+}
+
+.p_name {
+    color: #C4C2C2;
+}
+
+.font_bold {
+    font-weight: 700;
+}
+
+.div_name_product {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.p_price {
+    padding-right: 20px;
+}
+
+.image_product {
+    width: 90px;
+    height: 90px;
+}
+
+.div_image {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

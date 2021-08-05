@@ -1,0 +1,56 @@
+.button_edit {
+    background-color: #D00C42;
+    height: 40px;
+    width: 70px;
+    color: #fff;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.div_order_editar {
+    background-color: #fff;
+    margin-top: 0.3rem;
+    text-align: end;
+}
+
+.div_subtotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_total {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.h4_subtotal {
+    margin-left: 20px;
+    width: min-content;
+}
+
+.h4_subtotal_price {
+    margin-right: 20px;
+    width: min-content;
+    text-align: end;
+}
+
+.h4_total {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h4_total_price {
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: end;
+}

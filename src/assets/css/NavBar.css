@@ -1,0 +1,28 @@
+.h1_title_main {
+    margin-left: 1rem;
+}
+    @media (max-width: 700px) {
+        .h1_title_main {
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+
+.navbar {
+    border-bottom: 12px;
+    border-color: black;
+}
+
+hr {
+    color: black;
+}
+
+.order_review {
+    text-align: center;
+}
+
+    /* @media (max-width: 700px) {
+        .order_review {
+            text-align: center;
+        }
+    } */
