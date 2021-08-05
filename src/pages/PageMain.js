@@ -179,7 +179,7 @@ const PageMain = () => {
         try {
             const res = await __GetProducts();
             console.log('Estos son los productos',res);
-            setProduct(res.data)ñ
+            setProduct(res.data)
             getProductTotal();
         } catch (e) {
             console.log('Este es el error',e);
