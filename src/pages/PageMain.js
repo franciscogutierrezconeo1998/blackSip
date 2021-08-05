@@ -179,17 +179,16 @@ const PageMain = () => {
         try {
             const res = await __GetProducts();
             console.log('Estos son los productos',res);
-            setProduct(res.data)
-            getProductTotal();
+            setProduct(res.data);
+            settotalPrice(res.data?.reduce((act, item) => Number(item.price) + act, 0));
         } catch (e) {
             console.log('Este es el error',e);
         }
     }
 
-    const getProductTotal = () => {
-        let productTotal = product?.reduce((act, item) => Number(item.price )+ act, 0);
-        settotalPrice(productTotal);
-    }
+    /* const getProductTotal = () => {
+        
+    } */
 
     const submitForm = () => {
         let colonia = document.getElementById('colonia')
@@ -240,7 +239,7 @@ const PageMain = () => {
                     dataCodePostal={dataCodePostal}/>
                 </div>
                 <div className="div_main_order">
-                    <OrderReview product={product} getProductTotal={getProductTotal} totalPrice={totalPrice} />
+                    <OrderReview product={product} totalPrice={totalPrice} />
                 </div>
             </div>
         </>

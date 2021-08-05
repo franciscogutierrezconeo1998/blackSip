@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { __GetProducts } from '../services/OrderService';
+import React from 'react';
 import Product from '../components/Product';
 import NavBarOrder from "../components/NavBarOrder";
 import "../assets/css/Product.css";
