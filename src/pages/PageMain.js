@@ -26,7 +26,6 @@ const PageMain = () => {
 
     useEffect(() => {
         GetProducts();
-        getProductTotal();
     },[]);
 
     const notify = (type, message) => {
@@ -180,7 +179,8 @@ const PageMain = () => {
         try {
             const res = await __GetProducts();
             console.log('Estos son los productos',res);
-            setProduct(res.data)
+            setProduct(res.data)ñ
+            getProductTotal();
         } catch (e) {
             console.log('Este es el error',e);
         }
